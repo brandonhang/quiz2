@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8"
+		<meta charset="UTF-8">
 		<title>Quiz 2</title>
+		<link type="text/css" rel="stylesheet" href="quiz2.css"/>
 	</head>
 	<body>
 		
@@ -23,15 +24,21 @@
 					<form>
 						<label for="form">AJAX, yo!</label>
 						<input type="text" id="form" name="form" placeholder="Enter Some Text" />
-						<input value="SUBMIT">
+						<input type="submit" value="SUBMIT">
 					</form>
 				</div>
-				div class="timeout">
+				<div class="timeout">
 					<span>timeout function</span>
 				</div>
 			</div>
+		</div>
 		
+		<div class="api">
+			<h2 id="data"></h2>
+			<button class="button" id="button1">Get Title</button>
+		</div>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="quiz2.js"/></script>
 	</body>
 </html>
