@@ -1,11 +1,7 @@
-html body {
-	font-family: 'Helvetica', Arial, sans-serif;
-	color: #111
+html, body {
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	color: #111;
 	background: #E7E7E7;
-}
-
-a {
-	color: #0078A0;
 }
 
 .content {
@@ -16,19 +12,89 @@ a {
 .content h1 {
 	text-transform: uppercase;
 	font-weight: bold;
+	text-align: center;
 	margin: 20px 0;
+}
 
+.evens span, p {
+	display: block;
+	text-align: center;
+}
 
-content form {
+.click {
+	background: #74addc;
+	padding: 1em 0;
+}
+
+.mouse-over {
+	background: #bc74dc;
+}
+
+.content form {
 	padding: 10px;
 	width: 300px;
+	background: #f1f1f1;
+	text-align: center;
 	margin: 0 auto;
 }
 
 .content form input {
 	width: 100%;
-	// border: 2px solid #107394;
+	border: 2px solid #107394;
 	color: #107394;
 	background: transparent;
 	magrin-bottom: 15px;
+}
+
+.timeout {
+	font-size: 18px;
+	display: none;
+}
+
+h2 {
+	margin-top: 15px;
+	font-size: 45px;
+	color: #9a7b13;
+	font-weight: bold;
+	text-align: center;
+}
+
+.api {
+	display: block;
+	margin: 0 auto;
+}
+
+.button {
+	display: block;
+	margin: 0.2em auto;
+	border: none;
+	border-radius: 4px;
+	padding: 0.5em 1em;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	width: 8em;
+}
+
+.button:focus {
+	outline: none;
+}
+
+#button1 {
+	background: #c3291d;
+}
+
+#button1:hover {
+	background: #750e06;
+}
+
+#button2 {
+	background: #1dc330;
+}
+
+#button2:hover {
+	background: #036d0f;
 }
